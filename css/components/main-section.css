@@ -4,6 +4,10 @@
     justify-content: space-around;
 }
 
+.main-section.-column{
+    flex-direction: column;
+}
+
 .main-section .image{
     width: 390px;
     height: 430px;
