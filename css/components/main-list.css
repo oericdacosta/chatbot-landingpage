@@ -7,3 +7,9 @@
 .main-list .list:nth-child(2){
     margin: 1.5em 0;
 }
+
+.main-list.-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
