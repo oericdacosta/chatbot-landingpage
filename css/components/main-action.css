@@ -24,4 +24,37 @@
     text-transform: uppercase;
     font-weight: 900;
     background-color: #2d31fa;
+    transition: all 0.2s linear 0s;
+    position: relative;
+}
+
+.main-action .button::before{
+    content: "";
+    background: url(../../images/whatsapp-brands.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    background-color: #fff;
+    opacity: 0.3;
+    border-radius: 0 50% 50% 0;
+    transform: scale(0,1);
+    transform-origin: left center;
+    transition: all 0.2s linear 0s;
+}
+
+.main-action .button:hover{
+    text-indent: 30px;
+}
+
+.main-action .button:hover::before{
+    transform: scale(1,1);
+    text-indent: 0;
 }
