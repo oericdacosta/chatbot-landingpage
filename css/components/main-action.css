@@ -1,0 +1,27 @@
+.main-action{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.main-action .title{
+    color: #DFF6FF;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main-action .subtitle{
+    color: #DFF6FF;
+    font-size: 1.2em;
+}
+
+.main-action .button{
+    border: none;
+    color: #DFF6FF;
+    max-width: 30%;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #2d31fa;
+}
