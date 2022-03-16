@@ -1,6 +1,4 @@
 .main-footer{
     border-top: 0.4px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1.5em;
 }
