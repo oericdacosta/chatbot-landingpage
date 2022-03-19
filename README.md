@@ -2,7 +2,9 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/oericdacosta/README-template?style=for-the-badge)
 
-![chatbot-landingPage](https://user-images.githubusercontent.com/94540961/159124118-29fb3fef-991e-4aa3-9431-6c65c7998980.png)
+<a href="https://oericdacosta.github.io/chatbot-landingpage/">
+   <img src="https://user-images.githubusercontent.com/94540961/159124118-29fb3fef-991e-4aa3-9431-6c65c7998980.png"/>
+ </a>
 
 > This is a homepage for a dummy Chatbot service made with HTML5 and CSS3
 
